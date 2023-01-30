@@ -8,7 +8,6 @@ body {
 .wrap_head {
     width: 1075px;
     height: 212px;
-    margin-left: 125px;
     background-color: #FFFFFF;
     position: absolute;
     border-top-left-radius: 30% 100%;
@@ -25,7 +24,7 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 1075px;
     margin: 0 auto;
 }
 
@@ -41,14 +40,11 @@ body {
     background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
     background: linear-gradient(to right, #eef2f3, #8e9eab);
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 35px 90px;
+    padding: 35px 90px 15px 90px;
     border-radius: 0px 0px 210px 0px;
 }
 
 /* about styles */
-.about {
-    margin-bottom: 25px;
-}
 
 .about_name {
     font-style: normal;
@@ -67,7 +63,7 @@ body {
     font-size: 24px;
     line-height: 17px;
     color: #000000;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     position: relative;
 }
 
@@ -84,7 +80,6 @@ body {
 
 /* projects styles */
 .projects {
-    margin-bottom: 25px;
     width: 510px;
 }
 
@@ -99,7 +94,7 @@ body {
 
 .projects_list {
     padding: 0;
-    margin-left: 15px;
+    margin: 0 0 0 15px;
 }
 
 .projects_item,
@@ -149,7 +144,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-    margin-bottom: 10px;
+    margin: 10px 0 0 0;
 }
 
 .organization {
@@ -179,7 +174,7 @@ body {
 
 .work_list {
     padding: 0;
-    margin-left: 15px;
+    margin: 0 0 0 15px;
 }
 
 .work_list_item {
@@ -205,7 +200,7 @@ aside {
 
 .photo {
     width: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     border-radius: 50%;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 15px 2px #FFFFFF;
@@ -219,7 +214,7 @@ aside {
     font-weight: 700;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 25px;
+    margin: 15px 0 10px 0;
 }
 
 /* contacts styles */
@@ -233,7 +228,7 @@ aside {
 }
 
 .contacts {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .contact_list {
@@ -252,7 +247,7 @@ aside {
 
 .contact_item {
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -349,5 +344,5 @@ aside {
 }
 
 .tech {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
