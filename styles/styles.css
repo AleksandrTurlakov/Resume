@@ -110,7 +110,7 @@ body {
 }
 
 .projects_item::before {
-    content: "\1F5C1";
+    content: "📂";
 }
 
 .project,
