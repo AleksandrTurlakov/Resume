@@ -94,13 +94,23 @@ body {
 
 .projects_list {
     padding: 0;
-    margin: 0 0 0 15px;
+    margin: 0;
 }
 
 .projects_item,
 .project_bracket {
     font-weight: 700;
     color: #e91018;
+}
+
+.projects_item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.projects_item::before {
+    content: "\1F5C1";
 }
 
 .project,
@@ -340,7 +350,7 @@ aside {
     font-style: italic;
     font-size: 14px;
     line-height: 30px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
 }
 
 .tech {
